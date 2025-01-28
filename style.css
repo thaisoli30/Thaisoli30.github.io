@@ -366,3 +366,19 @@
 		color: #000;
 		margin-left: 1vw;
 	}
+
+	.single-photo {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: 60vh; /* Reduce the height to 80% of the viewport height */
+	    width: 60%; /* Reduce the width to 80% of the parent/container width */
+	    margin-bottom: 20px;
+	    margin: auto; /* Center the container within its parent */
+	}
+
+	.single-photo img {
+	    width: 100%; /* The image will fully fill the container */
+	    height: auto; /* Maintains the aspect ratio */
+	    object-fit: contain; /* Ensures proper scaling */
+	}
